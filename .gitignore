@@ -1,0 +1,22 @@
+# Ignore build directories
+build/
+debug/
+release/
+
+# Qt Creator specific
+.pro.user
+.qmake.stash
+
+# Ignore Qt generated files
+*.moc
+*.obj
+*.o
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
